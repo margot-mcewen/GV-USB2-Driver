@@ -6,7 +6,7 @@ A linux driver for the IO-DATA GV-USB2 SD capture device, modified to work with 
 > [!CAUTION]
 > I don't know what I'm doing!
 
-I have removed two lines from `gvusb2-vl2.c` on the basis that they are now deprecated.
+I have removed two lines from `gvusb2-v4l2.c` on the basis that they are now deprecated.
 
 ``` diff
 static const struct vb2_ops gvusb2_vb2_ops = {
